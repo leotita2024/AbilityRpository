@@ -1,0 +1,147 @@
+<mxfile host="65bd71144e">
+    <diagram id="BNtFpzE7CRj-8uRUtHQ3" name="行驶里程统计定时任务">
+        <mxGraphModel dx="2367" dy="1582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-4" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="tiEiMgHbo19qPuAeqB6b-1" target="tiEiMgHbo19qPuAeqB6b-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-1" value="行驶里程定时统计" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-920" y="-720" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-8" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="tiEiMgHbo19qPuAeqB6b-2" target="tiEiMgHbo19qPuAeqB6b-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-2" value="手动/定时执行" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" parent="1" vertex="1">
+                    <mxGeometry x="-935" y="-610" width="150" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-10" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tiEiMgHbo19qPuAeqB6b-5" target="tiEiMgHbo19qPuAeqB6b-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-5" value="删除当天该定时任务统计的数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-660" y="-595" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-29" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tiEiMgHbo19qPuAeqB6b-7" target="tiEiMgHbo19qPuAeqB6b-28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-7" value="查询昨天的GPS、按车辆分组统计GPS数量" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-920" y="-450" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <object label="" id="tiEiMgHbo19qPuAeqB6b-6">
+                    <mxCell style="edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;html=1;" parent="1" source="tiEiMgHbo19qPuAeqB6b-2" target="tiEiMgHbo19qPuAeqB6b-5" edge="1">
+                        <mxGeometry relative="1" as="geometry">
+                            <Array as="points">
+                                <mxPoint x="-730" y="-565"/>
+                                <mxPoint x="-730" y="-565"/>
+                            </Array>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-14" value="手动执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;rotation=0;" parent="1" vertex="1">
+                    <mxGeometry x="-760" y="-590" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-26" value="定时执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-860" y="-500" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-31" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tiEiMgHbo19qPuAeqB6b-28" target="tiEiMgHbo19qPuAeqB6b-30" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-28" value="更新里程数据" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-1110" y="-450" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-36" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.013;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tiEiMgHbo19qPuAeqB6b-30" target="tiEiMgHbo19qPuAeqB6b-33" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-30" value="查询出昨天内补传的GPS" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-1110" y="-300" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-37" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="tiEiMgHbo19qPuAeqB6b-33" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-860" y="-170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-41" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tiEiMgHbo19qPuAeqB6b-33" target="tiEiMgHbo19qPuAeqB6b-42" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-720" y="-270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-33" value="该车辆是否存在&lt;br&gt;对应的统计数据" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" parent="1" vertex="1">
+                    <mxGeometry x="-935" y="-315" width="150" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-39" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="tiEiMgHbo19qPuAeqB6b-38" target="tiEiMgHbo19qPuAeqB6b-33" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-47" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tiEiMgHbo19qPuAeqB6b-38" target="tiEiMgHbo19qPuAeqB6b-46" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-38" value="新增里程统计数据" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-920" y="-170" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-40" value="不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-865" y="-210" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-48" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tiEiMgHbo19qPuAeqB6b-42" target="tiEiMgHbo19qPuAeqB6b-46" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-42" value="更新里程统计数据" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-710" y="-300" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-45" value="存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-770" y="-290" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="tiEiMgHbo19qPuAeqB6b-46" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-920" y="-40" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="qJZ9pd-clNeipq16i4nF" name="自动加车">
+        <mxGraphModel dx="1167" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="1" shadow="1">
+            <root>
+                <mxCell id="nzMvPpDzBMdqvm8iB8vz-0"/>
+                <mxCell id="nzMvPpDzBMdqvm8iB8vz-1" parent="nzMvPpDzBMdqvm8iB8vz-0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="bsOvjhJWNknVIcaXXhmh" name="司机刷卡">
+        <mxGraphModel dx="1967" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="LxFW97aRFbl8Swf_JRqW-0"/>
+                <mxCell id="LxFW97aRFbl8Swf_JRqW-1" parent="LxFW97aRFbl8Swf_JRqW-0"/>
+                <mxCell id="FjYzwweRns5EFVn7-bwL-0" value="S17" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LxFW97aRFbl8Swf_JRqW-1">
+                    <mxGeometry x="240" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="FjYzwweRns5EFVn7-bwL-1" value="Tap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LxFW97aRFbl8Swf_JRqW-1">
+                    <mxGeometry x="40" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="FjYzwweRns5EFVn7-bwL-2" value="Evidence" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LxFW97aRFbl8Swf_JRqW-1">
+                    <mxGeometry x="-160" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="FjYzwweRns5EFVn7-bwL-3" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LxFW97aRFbl8Swf_JRqW-1">
+                    <mxGeometry x="-360" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="FjYzwweRns5EFVn7-bwL-4" value="业务层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LxFW97aRFbl8Swf_JRqW-1">
+                    <mxGeometry x="-560" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="FjYzwweRns5EFVn7-bwL-11" style="html=1;" edge="1" parent="LxFW97aRFbl8Swf_JRqW-1" target="FjYzwweRns5EFVn7-bwL-9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-182" y="514" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FjYzwweRns5EFVn7-bwL-7" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="LxFW97aRFbl8Swf_JRqW-1">
+                    <mxGeometry x="-240" y="320" width="100" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="FjYzwweRns5EFVn7-bwL-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="FjYzwweRns5EFVn7-bwL-7">
+                    <mxGeometry x="45" y="70" width="10" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="FjYzwweRns5EFVn7-bwL-9" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="LxFW97aRFbl8Swf_JRqW-1">
+                    <mxGeometry x="-10" y="330" width="100" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="FjYzwweRns5EFVn7-bwL-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="FjYzwweRns5EFVn7-bwL-9">
+                    <mxGeometry x="45" y="120" width="10" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
