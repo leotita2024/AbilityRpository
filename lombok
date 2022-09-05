@@ -1,0 +1,7 @@
+@RequiredArgsConstructor(onConstructor = @__(@Autowired))
+
+
+
+{"groupIds":"&DrviceStatus1.data.list[?groupName=='MT_AutoFleet']|[0].groupId&","appId":66666,"tenantId":"111","roleType":1,"configSet":0,"keyWord":""}
+
+{"groupIds":"589464961940463069","appId":1,"tenantId":"111","roleType":1,"configSet":0,"keyWord":""}
